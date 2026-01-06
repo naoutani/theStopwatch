@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #fff;
+  color: #000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.stop-watch-container {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+  background-color: greenyellow;
+}
+
+.stop-watch-title {
+  text-align: left;
+}
+
+.stop-watch-display {
+  text-align: left;
+  margin: 30px;
+  font-size: 35px;
+}
+
+.stop-watch-buttons {
+  text-align: left;
+  min-width: 50px;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: azure;
+}
+
+button.disabled {
+  background-color: #ccc;
+  color: #888;
+}
